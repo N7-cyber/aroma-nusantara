@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5, user-scalable=yes">
+    <meta name="description" content="Aroma Nusantara - Kopi Premium UMKM dari Indonesia. Produk kopi pilihan dari petani lokal dengan kualitas terbaik.">
+    <meta name="theme-color" content="#4A3326">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Aroma Nusantara | Kopi Premium UMKM</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div id="preloader">
+        <i class="fas fa-coffee loader-cup"></i>
+        <h2 class="serif-font" style="margin-top: 15px; color: var(--primary-color);">Menyeduh...</h2>
+    </div>
+
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>☕ Diskon 20% untuk Signature Blend minggu ini!</span>
+            <span>🌱 Kopi asli pilihan petani lokal Nusantara.</span>
+            <span>🚚 Gratis ongkir untuk pembelian di atas Rp 200.000.</span>
+            <span>⭐ Rasakan pengalaman ngopi premium di rumah Anda.</span>
+            <span>☕ Diskon 20% untuk Signature Blend minggu ini!</span>
+            <span>🌱 Kopi asli pilihan petani lokal Nusantara.</span>
+            <span>🚚 Gratis ongkir untuk pembelian di atas Rp 200.000.</span>
+            <span>⭐ Rasakan pengalaman ngopi premium di rumah Anda.</span>
+        </div>
+    </div>
+
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-mug-hot"></i> Aroma Nusantara
+            </a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#beranda" class="active">Beranda</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#produk">Produk</a>
+                <a href="#testimoni">Testimoni</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+
+            <div class="nav-icons">
+                <button id="themeToggle" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="cart-icon-wrapper" id="cartOpenBtn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero" style="padding: 0; max-width: 100%;">
+        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Kopi Premium" class="hero-bg" loading="lazy">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <span class="hero-tag">100% Kopi Nusantara</span>
+            <h1 class="hero-title">Awali Harimu dengan Kesempurnaan Rasa</h1>
+            <p class="hero-desc">Kopi premium yang disangrai dengan dedikasi. Dari biji pilihan petani lokal untuk menemani setiap momen berhargamu.</p>
+            <div>
+                <a href="#produk" class="btn btn-primary">Lihat Koleksi</a>
+                <a href="#tentang" class="btn btn-outline">Cerita Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="about-grid">
+            <div class="about-img-wrapper reveal">
+                <div class="about-shape"></div>
+                <img src="https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proses Roasting Kopi" class="about-img" loading="lazy">
+            </div>
+            <div class="about-content reveal">
+                <span class="section-subtitle">Kisah Kami</span>
+                <h3>Dedikasi Dalam Setiap Cangkir</h3>
+                <p>Aroma Nusantara lahir dari kecintaan kami terhadap kekayaan alam Indonesia. Kami percaya bahwa secangkir kopi bukan sekadar minuman, melainkan sebuah perjalanan rasa yang menghubungkan petani lokal dengan para penikmat kopi.</p>
+                <p>Setiap biji kopi dipilih secara manual, disangrai dengan teknik presisi, dan dikemas untuk menjaga kesegarannya hingga tiba di tangan Anda.</p>
+                
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                        <div>
+                            <strong style="display: block;">Biji Organik Pilihan</strong>
+                            <span style="font-size: 0.9rem; color: var(--text-muted);">Dipanen langsung dari perkebunan dataran tinggi.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-fire"></i></div>
+                        <div>
+                            <strong style="display: block;">Artisan Roasting</strong>
+                            <span style="font-size: 0.9rem; color: var(--text-muted);">Disangrai dalam jumlah kecil untuk kualitas maksimal.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" style="background-color: var(--surface-color); max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Katalog Kami</span>
+                <h2 class="section-title">Eksplorasi Rasa Premium</h2>
+            </div>
+
+            <div class="filter-container reveal" id="filterContainer">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="bestseller">Best Seller</button>
+                <button class="filter-btn" data-filter="biji">Biji Kopi</button>
+                <button class="filter-btn" data-filter="bubuk">Kopi Bubuk</button>
+                <button class="filter-btn" data-filter="signature">Signature Blend</button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                </div>
+        </div>
+    </section>
+
+    <section id="testimoni">
+        <div class="section-header reveal">
+            <span class="section-subtitle">Apa Kata Mereka</span>
+            <h2 class="section-title">Ulasan Pecinta Kopi</h2>
+        </div>
+        
+        <div class="testimonial-grid reveal">
+            <div class="testi-card">
+                <i class="fas fa-quote-right testi-icon"></i>
+                <p class="testi-text">"Gayo Arabica dari Aroma Nusantara benar-benar luar biasa. Notes floralnya sangat terasa, crema-nya tebal. Sangat cocok untuk morning espresso saya."</p>
+                <div class="testi-user">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="testi-avatar" loading="lazy">
+                    <div>
+                        <div class="testi-name">Budi Santoso</div>
+                        <div class="testi-role">Home Brewer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <i class="fas fa-quote-right testi-icon"></i>
+                <p class="testi-text">"Saya pemilik cafe kecil dan sejak pakai Signature Blend ini, pelanggan makin banyak yang puji rasa kopi susu kami. Balanced, nutty, dan creamy!"</p>
+                <div class="testi-user">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="testi-avatar" loading="lazy">
+                    <div>
+                        <div class="testi-name">Diana Putri</div>
+                        <div class="testi-role">Pemilik Cafe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <i class="fas fa-quote-right testi-icon"></i>
+                <p class="testi-text">"Packagingnya sangat premium, cocok buat dijadikan hampers atau hadiah. Pengirimannya juga cepat dan kualitas fresh roast sangat terasa saat kemasan dibuka."</p>
+                <div class="testi-user">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="User" class="testi-avatar" loading="lazy">
+                    <div>
+                        <div class="testi-name">Reza Rahadian</div>
+                        <div class="testi-role">Karyawan Swasta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" style="background-color: var(--surface-color); max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Kunjungi Kami</span>
+                <h2 class="section-title">Mari Berbincang</h2>
+            </div>
+
+            <div class="contact-grid reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-details">
+                            <h4>Lokasi Roastery</h4>
+                            <p>Jl. Kopi Harum No. 88, Senopati, Jakarta Selatan, 12190</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-details">
+                            <h4>WhatsApp Bisnis</h4>
+                            <p>+62 812 3456 7890<br>(Senin - Sabtu, 09:00 - 17:00)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email Kami</h4>
+                            <p>halo@aromanusantara.id<br>partners@aromanusantara.id</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.272186595568!2d106.80419261476906!3d-6.227801995491917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14545b74683%3A0x2a9cd288b8fbd40e!2sSenopati%2C%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1689264515157!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2 class="logo"><i class="fas fa-mug-hot"></i> Aroma Nusantara</h2>
+                <p class="footer-desc">Menyajikan kopi kualitas terbaik dari berbagai penjuru nusantara. Merayakan keunikan rasa dalam setiap seduhan.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="footer-title">Jelajahi</h3>
+                <ul class="footer-links">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#produk">Katalog Produk</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="footer-title">Bantuan</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Cara Pemesanan</a></li>
+                    <li><a href="#">Pengiriman & Retur</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="footer-title">Newsletter</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem;">Dapatkan info promo dan rilis biji kopi terbaru dari kami.</p>
+                <div style="display: flex; gap: 10px;">
+                    <input type="email" placeholder="Email Anda..." style="padding: 10px; width: 100%; border-radius: 5px; border: none; outline: none;">
+                    <button style="background: var(--accent-color); color: white; padding: 10px 15px; border-radius: 5px; cursor: pointer;"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Aroma Nusantara Coffee. All rights reserved. Dibuat dengan <i class="fas fa-heart" style="color: var(--danger);"></i> untuk UMKM Indonesia.</p>
+        </div>
+    </footer>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Keranjang Saya</h3>
+            <button class="close-cart" id="closeCartBtn"><i class="fas fa-times"></i></button>
+        </div>
+        
+        <div class="cart-items" id="cartItemsContainer">
+            <div class="cart-empty" id="cartEmptyMsg" style="display: block;">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Keranjang Anda masih kosong.<br>Yuk, pilih kopi favoritmu!</p>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotalAmt">Rp 0</span>
+            </div>
+            <button class="btn-checkout-wa" id="checkoutBtn">
+                <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
